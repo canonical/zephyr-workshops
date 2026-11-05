@@ -1,0 +1,22 @@
+name: adafruit-feather-esp32s3-tft
+plugs:
+  adafruit-feather-esp32s3-tft-usb-jtag:  # built-in USB-Serial/JTAG (where present)
+    interface: custom-device
+    subsystem: usb
+    vendorid: "303a"
+  adafruit-feather-esp32s3-tft-usb-console:  # built-in USB-Serial/JTAG console
+    interface: custom-device
+    subsystem: tty
+    vendorid: "303a"
+  adafruit-feather-esp32s3-tft-cp210x-serial:  # CP210X USB-UART bridge
+    interface: custom-device
+    subsystem: tty
+    vendorid: "10c4"
+  adafruit-feather-esp32s3-tft-ch34x-serial:  # CH34X USB-UART bridge
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1a86"
+  adafruit-feather-esp32s3-tft-ftdi-serial:  # FTDI USB-UART bridge
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0403"

@@ -1,0 +1,10 @@
+name: kb1200-evb
+plugs:
+  kb1200-evb-probe:  # debug probe: SEGGER J-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1366"
+  kb1200-evb-console:  # console: SEGGER J-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1366"

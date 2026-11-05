@@ -1,0 +1,10 @@
+name: rssk-ra2l1
+plugs:
+  rssk-ra2l1-probe:  # debug probe: FTDI JTAG/UART bridge
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0403"
+  rssk-ra2l1-console:  # console: FTDI JTAG/UART bridge virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0403"

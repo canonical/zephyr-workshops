@@ -1,0 +1,22 @@
+name: m5stack-atom-lite
+plugs:
+  m5stack-atom-lite-usb-jtag:  # built-in USB-Serial/JTAG (where present)
+    interface: custom-device
+    subsystem: usb
+    vendorid: "303a"
+  m5stack-atom-lite-usb-console:  # built-in USB-Serial/JTAG console
+    interface: custom-device
+    subsystem: tty
+    vendorid: "303a"
+  m5stack-atom-lite-cp210x-serial:  # CP210X USB-UART bridge
+    interface: custom-device
+    subsystem: tty
+    vendorid: "10c4"
+  m5stack-atom-lite-ch34x-serial:  # CH34X USB-UART bridge
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1a86"
+  m5stack-atom-lite-ftdi-serial:  # FTDI USB-UART bridge
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0403"

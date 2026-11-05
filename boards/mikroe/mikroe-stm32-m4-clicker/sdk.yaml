@@ -1,0 +1,10 @@
+name: mikroe-stm32-m4-clicker
+plugs:
+  mikroe-stm32-m4-clicker-probe:  # debug probe: Arm DAPLink / CMSIS-DAP
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0d28"
+  mikroe-stm32-m4-clicker-console:  # console: Arm DAPLink / CMSIS-DAP virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0d28"

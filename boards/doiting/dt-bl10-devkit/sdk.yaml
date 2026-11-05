@@ -1,0 +1,14 @@
+name: dt-bl10-devkit
+plugs:
+  dt-bl10-devkit-cp210x-serial:  # CP210X USB-UART bridge
+    interface: custom-device
+    subsystem: tty
+    vendorid: "10c4"
+  dt-bl10-devkit-ch34x-serial:  # CH34X USB-UART bridge
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1a86"
+  dt-bl10-devkit-ftdi-serial:  # FTDI USB-UART bridge
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0403"

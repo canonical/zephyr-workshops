@@ -1,0 +1,10 @@
+name: lpcxpresso54114
+plugs:
+  lpcxpresso54114-probe:  # debug probe: NXP MCU-Link / LPC-Link2
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1fc9"
+  lpcxpresso54114-console:  # console: NXP MCU-Link / LPC-Link2 virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1fc9"

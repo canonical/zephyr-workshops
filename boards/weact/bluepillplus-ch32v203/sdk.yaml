@@ -1,0 +1,10 @@
+name: bluepillplus-ch32v203
+plugs:
+  bluepillplus-ch32v203-probe:  # debug probe: WCH-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1a86"
+  bluepillplus-ch32v203-console:  # console: WCH-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1a86"

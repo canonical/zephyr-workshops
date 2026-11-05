@@ -1,0 +1,10 @@
+name: olimex-stm32-h407
+plugs:
+  olimex-stm32-h407-probe:  # debug probe: SEGGER J-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1366"
+  olimex-stm32-h407-console:  # console: SEGGER J-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1366"

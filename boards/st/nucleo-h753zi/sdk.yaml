@@ -1,0 +1,10 @@
+name: nucleo-h753zi
+plugs:
+  nucleo-h753zi-probe:  # debug probe: ST-LINK
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  nucleo-h753zi-console:  # console: ST-LINK virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

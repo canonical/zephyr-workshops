@@ -1,0 +1,10 @@
+name: nrf52840-papyr
+plugs:
+  nrf52840-papyr-probe:  # debug probe: Black Magic Probe
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1d50"
+  nrf52840-papyr-console:  # console: Black Magic Probe virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1d50"

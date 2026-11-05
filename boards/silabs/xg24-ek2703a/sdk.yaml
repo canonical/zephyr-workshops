@@ -1,0 +1,10 @@
+name: xg24-ek2703a
+plugs:
+  xg24-ek2703a-probe:  # debug probe: SEGGER J-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1366"
+  xg24-ek2703a-console:  # console: SEGGER J-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1366"

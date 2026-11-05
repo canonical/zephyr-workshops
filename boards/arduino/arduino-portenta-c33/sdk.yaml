@@ -1,0 +1,10 @@
+name: arduino-portenta-c33
+plugs:
+  arduino-portenta-c33-usb:  # native USB bootloader (UF2/DFU/bossac)
+    interface: custom-device
+    subsystem: usb
+    vendorid: "2341"
+  arduino-portenta-c33-serial:  # native USB CDC ACM console
+    interface: custom-device
+    subsystem: tty
+    vendorid: "2341"

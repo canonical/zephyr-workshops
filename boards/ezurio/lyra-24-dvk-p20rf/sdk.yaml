@@ -1,0 +1,10 @@
+name: lyra-24-dvk-p20rf
+plugs:
+  lyra-24-dvk-p20rf-probe:  # debug probe: SEGGER J-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1366"
+  lyra-24-dvk-p20rf-console:  # console: SEGGER J-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1366"

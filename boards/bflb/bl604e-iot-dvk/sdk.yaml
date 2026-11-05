@@ -1,0 +1,14 @@
+name: bl604e-iot-dvk
+plugs:
+  bl604e-iot-dvk-cp210x-serial:  # CP210X USB-UART bridge
+    interface: custom-device
+    subsystem: tty
+    vendorid: "10c4"
+  bl604e-iot-dvk-ch34x-serial:  # CH34X USB-UART bridge
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1a86"
+  bl604e-iot-dvk-ftdi-serial:  # FTDI USB-UART bridge
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0403"

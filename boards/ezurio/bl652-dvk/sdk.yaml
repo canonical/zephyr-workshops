@@ -1,0 +1,10 @@
+name: bl652-dvk
+plugs:
+  bl652-dvk-probe:  # debug probe: FTDI JTAG/UART bridge
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0403"
+  bl652-dvk-console:  # console: FTDI JTAG/UART bridge virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0403"

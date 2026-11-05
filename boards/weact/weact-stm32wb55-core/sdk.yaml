@@ -1,0 +1,10 @@
+name: weact-stm32wb55-core
+plugs:
+  weact-stm32wb55-core-probe:  # debug probe: ST-LINK
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  weact-stm32wb55-core-console:  # console: ST-LINK virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

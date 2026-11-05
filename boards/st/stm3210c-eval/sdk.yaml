@@ -1,0 +1,10 @@
+name: stm3210c-eval
+plugs:
+  stm3210c-eval-probe:  # debug probe: ST-LINK
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  stm3210c-eval-console:  # console: ST-LINK virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

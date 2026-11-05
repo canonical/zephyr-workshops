@@ -1,0 +1,10 @@
+name: mcb-rx26t
+plugs:
+  mcb-rx26t-probe:  # debug probe: SEGGER J-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1366"
+  mcb-rx26t-console:  # console: SEGGER J-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1366"

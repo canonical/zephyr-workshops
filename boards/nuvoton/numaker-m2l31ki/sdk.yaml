@@ -1,0 +1,10 @@
+name: numaker-m2l31ki
+plugs:
+  numaker-m2l31ki-probe:  # debug probe: Nuvoton Nu-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0416"
+  numaker-m2l31ki-console:  # console: Nuvoton Nu-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0416"

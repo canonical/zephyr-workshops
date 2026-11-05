@@ -1,0 +1,10 @@
+name: xgm240-rb4317a
+plugs:
+  xgm240-rb4317a-probe:  # debug probe: SEGGER J-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1366"
+  xgm240-rb4317a-console:  # console: SEGGER J-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1366"

@@ -1,0 +1,10 @@
+name: lp-mspm0l2228
+plugs:
+  lp-mspm0l2228-probe:  # debug probe: TI XDS110
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0451"
+  lp-mspm0l2228-console:  # console: TI XDS110 virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0451"

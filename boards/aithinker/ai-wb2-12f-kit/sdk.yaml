@@ -1,0 +1,14 @@
+name: ai-wb2-12f-kit
+plugs:
+  ai-wb2-12f-kit-cp210x-serial:  # CP210X USB-UART bridge
+    interface: custom-device
+    subsystem: tty
+    vendorid: "10c4"
+  ai-wb2-12f-kit-ch34x-serial:  # CH34X USB-UART bridge
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1a86"
+  ai-wb2-12f-kit-ftdi-serial:  # FTDI USB-UART bridge
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0403"

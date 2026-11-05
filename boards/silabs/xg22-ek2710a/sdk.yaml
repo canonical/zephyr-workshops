@@ -1,0 +1,10 @@
+name: xg22-ek2710a
+plugs:
+  xg22-ek2710a-probe:  # debug probe: SEGGER J-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1366"
+  xg22-ek2710a-console:  # console: SEGGER J-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1366"

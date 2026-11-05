@@ -1,0 +1,10 @@
+name: stm32mp257f-dk
+plugs:
+  stm32mp257f-dk-probe:  # debug probe: ST-LINK
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  stm32mp257f-dk-console:  # console: ST-LINK virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

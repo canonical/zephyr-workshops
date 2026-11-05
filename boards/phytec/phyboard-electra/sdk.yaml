@@ -1,0 +1,10 @@
+name: phyboard-electra
+plugs:
+  phyboard-electra-probe:  # debug probe: TI XDS110
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0451"
+  phyboard-electra-console:  # console: TI XDS110 virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0451"

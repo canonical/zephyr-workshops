@@ -1,0 +1,10 @@
+name: ubx-bmd330eval
+plugs:
+  ubx-bmd330eval-probe:  # debug probe: SEGGER J-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1366"
+  ubx-bmd330eval-console:  # console: SEGGER J-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1366"

@@ -1,0 +1,10 @@
+name: scobc-v1
+plugs:
+  scobc-v1-probe:  # debug probe: FTDI JTAG/UART bridge
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0403"
+  scobc-v1-console:  # console: FTDI JTAG/UART bridge virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0403"

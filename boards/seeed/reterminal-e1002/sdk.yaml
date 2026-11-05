@@ -1,0 +1,22 @@
+name: reterminal-e1002
+plugs:
+  reterminal-e1002-usb-jtag:  # built-in USB-Serial/JTAG (where present)
+    interface: custom-device
+    subsystem: usb
+    vendorid: "303a"
+  reterminal-e1002-usb-console:  # built-in USB-Serial/JTAG console
+    interface: custom-device
+    subsystem: tty
+    vendorid: "303a"
+  reterminal-e1002-cp210x-serial:  # CP210X USB-UART bridge
+    interface: custom-device
+    subsystem: tty
+    vendorid: "10c4"
+  reterminal-e1002-ch34x-serial:  # CH34X USB-UART bridge
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1a86"
+  reterminal-e1002-ftdi-serial:  # FTDI USB-UART bridge
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0403"

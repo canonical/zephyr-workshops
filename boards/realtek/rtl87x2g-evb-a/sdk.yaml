@@ -1,0 +1,10 @@
+name: rtl87x2g-evb-a
+plugs:
+  rtl87x2g-evb-a-probe:  # debug probe: SEGGER J-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1366"
+  rtl87x2g-evb-a-console:  # console: SEGGER J-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1366"

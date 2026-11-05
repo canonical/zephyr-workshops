@@ -1,0 +1,10 @@
+name: framework-laptop16-keyboard
+plugs:
+  framework-laptop16-keyboard-probe:  # debug probe: Raspberry Pi Debug Probe
+    interface: custom-device
+    subsystem: usb
+    vendorid: "2e8a"
+  framework-laptop16-keyboard-console:  # console: Raspberry Pi Debug Probe virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "2e8a"

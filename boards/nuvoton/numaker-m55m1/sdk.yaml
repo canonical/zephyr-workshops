@@ -1,0 +1,10 @@
+name: numaker-m55m1
+plugs:
+  numaker-m55m1-probe:  # debug probe: Nuvoton Nu-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0416"
+  numaker-m55m1-console:  # console: Nuvoton Nu-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0416"

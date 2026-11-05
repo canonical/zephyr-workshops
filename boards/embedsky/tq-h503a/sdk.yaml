@@ -1,0 +1,10 @@
+name: tq-h503a
+plugs:
+  tq-h503a-probe:  # debug probe: ST-LINK
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  tq-h503a-console:  # console: ST-LINK virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

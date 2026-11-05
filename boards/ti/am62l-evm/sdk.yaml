@@ -1,0 +1,10 @@
+name: am62l-evm
+plugs:
+  am62l-evm-probe:  # debug probe: TI XDS110
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0451"
+  am62l-evm-console:  # console: TI XDS110 virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0451"

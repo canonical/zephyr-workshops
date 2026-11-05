@@ -1,0 +1,10 @@
+name: nrf51-blenano
+plugs:
+  nrf51-blenano-probe:  # debug probe: Arm DAPLink / CMSIS-DAP
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0d28"
+  nrf51-blenano-console:  # console: Arm DAPLink / CMSIS-DAP virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0d28"

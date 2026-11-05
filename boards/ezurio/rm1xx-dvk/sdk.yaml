@@ -1,0 +1,10 @@
+name: rm1xx-dvk
+plugs:
+  rm1xx-dvk-probe:  # debug probe: SEGGER J-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1366"
+  rm1xx-dvk-console:  # console: SEGGER J-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1366"

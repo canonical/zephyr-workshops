@@ -1,0 +1,10 @@
+name: blackpill-h523ce
+plugs:
+  blackpill-h523ce-usb:  # native USB bootloader (UF2/DFU/bossac)
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  blackpill-h523ce-serial:  # native USB CDC ACM console
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

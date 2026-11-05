@@ -1,0 +1,10 @@
+name: pinetime-devkit0
+plugs:
+  pinetime-devkit0-probe:  # debug probe: Arm DAPLink / CMSIS-DAP
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0d28"
+  pinetime-devkit0-console:  # console: Arm DAPLink / CMSIS-DAP virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0d28"

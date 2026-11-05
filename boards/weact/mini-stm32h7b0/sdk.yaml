@@ -1,0 +1,10 @@
+name: mini-stm32h7b0
+plugs:
+  mini-stm32h7b0-probe:  # debug probe: ST-LINK
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  mini-stm32h7b0-console:  # console: ST-LINK virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

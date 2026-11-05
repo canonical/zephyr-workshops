@@ -1,0 +1,10 @@
+name: nucleo-g0b1re
+plugs:
+  nucleo-g0b1re-probe:  # debug probe: ST-LINK
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  nucleo-g0b1re-console:  # console: ST-LINK virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

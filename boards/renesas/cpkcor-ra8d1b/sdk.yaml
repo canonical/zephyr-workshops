@@ -1,0 +1,10 @@
+name: cpkcor-ra8d1b
+plugs:
+  cpkcor-ra8d1b-probe:  # debug probe: SEGGER J-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1366"
+  cpkcor-ra8d1b-console:  # console: SEGGER J-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1366"

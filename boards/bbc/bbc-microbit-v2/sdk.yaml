@@ -1,0 +1,10 @@
+name: bbc-microbit-v2
+plugs:
+  bbc-microbit-v2-probe:  # debug probe: Arm DAPLink / CMSIS-DAP
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0d28"
+  bbc-microbit-v2-console:  # console: Arm DAPLink / CMSIS-DAP virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0d28"

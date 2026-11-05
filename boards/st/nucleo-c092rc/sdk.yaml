@@ -1,0 +1,10 @@
+name: nucleo-c092rc
+plugs:
+  nucleo-c092rc-probe:  # debug probe: ST-LINK
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  nucleo-c092rc-console:  # console: ST-LINK virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

@@ -1,0 +1,10 @@
+name: stm32l4r9i-disco
+plugs:
+  stm32l4r9i-disco-probe:  # debug probe: ST-LINK
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  stm32l4r9i-disco-console:  # console: ST-LINK virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

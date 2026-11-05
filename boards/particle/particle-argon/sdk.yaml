@@ -1,0 +1,10 @@
+name: particle-argon
+plugs:
+  particle-argon-probe:  # debug probe: Arm DAPLink / CMSIS-DAP
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0d28"
+  particle-argon-console:  # console: Arm DAPLink / CMSIS-DAP virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0d28"

@@ -1,0 +1,10 @@
+name: nucleo-f767zi
+plugs:
+  nucleo-f767zi-probe:  # debug probe: ST-LINK
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  nucleo-f767zi-console:  # console: ST-LINK virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

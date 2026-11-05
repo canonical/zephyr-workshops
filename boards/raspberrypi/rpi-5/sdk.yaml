@@ -1,0 +1,10 @@
+name: rpi-5
+plugs:
+  rpi-5-usb:  # native USB bootloader (UF2/DFU/bossac)
+    interface: custom-device
+    subsystem: usb
+    vendorid: "2e8a"
+  rpi-5-serial:  # native USB CDC ACM console
+    interface: custom-device
+    subsystem: tty
+    vendorid: "2e8a"

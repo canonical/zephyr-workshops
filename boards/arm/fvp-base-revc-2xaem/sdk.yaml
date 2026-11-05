@@ -1,0 +1,10 @@
+name: fvp-base-revc-2xaem
+plugs:
+  fvp-base-revc-2xaem-usb:  # native USB bootloader (UF2/DFU/bossac)
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0d28"
+  fvp-base-revc-2xaem-serial:  # native USB CDC ACM console
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0d28"

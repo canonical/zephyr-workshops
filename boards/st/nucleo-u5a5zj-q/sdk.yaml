@@ -1,0 +1,10 @@
+name: nucleo-u5a5zj-q
+plugs:
+  nucleo-u5a5zj-q-probe:  # debug probe: ST-LINK
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  nucleo-u5a5zj-q-console:  # console: ST-LINK virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

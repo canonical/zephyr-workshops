@@ -1,0 +1,10 @@
+name: adi-sdp-k1
+plugs:
+  adi-sdp-k1-probe:  # debug probe: ST-LINK
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  adi-sdp-k1-console:  # console: ST-LINK virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

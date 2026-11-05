@@ -1,0 +1,10 @@
+name: lora-e5-dev-board
+plugs:
+  lora-e5-dev-board-probe:  # debug probe: ST-LINK
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  lora-e5-dev-board-console:  # console: ST-LINK virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

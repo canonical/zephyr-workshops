@@ -1,0 +1,10 @@
+name: nucleo-f207zg
+plugs:
+  nucleo-f207zg-probe:  # debug probe: ST-LINK
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  nucleo-f207zg-console:  # console: ST-LINK virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

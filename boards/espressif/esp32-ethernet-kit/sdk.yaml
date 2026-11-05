@@ -1,0 +1,10 @@
+name: esp32-ethernet-kit
+plugs:
+  esp32-ethernet-kit-probe:  # debug probe: FTDI JTAG/UART bridge
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0403"
+  esp32-ethernet-kit-console:  # console: FTDI JTAG/UART bridge virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0403"

@@ -1,0 +1,10 @@
+name: adafruit-grand-central-m4-express
+plugs:
+  adafruit-grand-central-m4-express-usb:  # native USB bootloader (UF2/DFU/bossac)
+    interface: custom-device
+    subsystem: usb
+    vendorid: "239a"
+  adafruit-grand-central-m4-express-serial:  # native USB CDC ACM console
+    interface: custom-device
+    subsystem: tty
+    vendorid: "239a"

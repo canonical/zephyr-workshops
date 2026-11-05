@@ -1,0 +1,10 @@
+name: nucleo-wb09ke
+plugs:
+  nucleo-wb09ke-probe:  # debug probe: ST-LINK
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  nucleo-wb09ke-console:  # console: ST-LINK virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

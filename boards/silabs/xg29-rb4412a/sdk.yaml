@@ -1,0 +1,10 @@
+name: xg29-rb4412a
+plugs:
+  xg29-rb4412a-probe:  # debug probe: SEGGER J-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1366"
+  xg29-rb4412a-console:  # console: SEGGER J-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1366"

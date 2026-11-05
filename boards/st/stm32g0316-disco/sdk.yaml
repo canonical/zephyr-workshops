@@ -1,0 +1,10 @@
+name: stm32g0316-disco
+plugs:
+  stm32g0316-disco-probe:  # debug probe: ST-LINK
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  stm32g0316-disco-console:  # console: ST-LINK virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

@@ -1,0 +1,10 @@
+name: az3166-iotdevkit
+plugs:
+  az3166-iotdevkit-probe:  # debug probe: SEGGER J-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1366"
+  az3166-iotdevkit-console:  # console: SEGGER J-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1366"

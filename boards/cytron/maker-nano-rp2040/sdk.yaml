@@ -1,0 +1,10 @@
+name: maker-nano-rp2040
+plugs:
+  maker-nano-rp2040-probe:  # debug probe: Raspberry Pi Debug Probe
+    interface: custom-device
+    subsystem: usb
+    vendorid: "2e8a"
+  maker-nano-rp2040-console:  # console: Raspberry Pi Debug Probe virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "2e8a"

@@ -1,0 +1,10 @@
+name: sparkfun-samd21-breakout
+plugs:
+  sparkfun-samd21-breakout-usb:  # native USB bootloader (UF2/DFU/bossac)
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1b4f"
+  sparkfun-samd21-breakout-serial:  # native USB CDC ACM console
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1b4f"

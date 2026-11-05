@@ -1,0 +1,10 @@
+name: stm32f429ii-aca
+plugs:
+  stm32f429ii-aca-probe:  # debug probe: SEGGER J-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1366"
+  stm32f429ii-aca-console:  # console: SEGGER J-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1366"

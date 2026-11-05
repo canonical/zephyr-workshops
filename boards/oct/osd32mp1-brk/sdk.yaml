@@ -1,0 +1,10 @@
+name: osd32mp1-brk
+plugs:
+  osd32mp1-brk-probe:  # debug probe: ST-LINK
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  osd32mp1-brk-console:  # console: ST-LINK virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

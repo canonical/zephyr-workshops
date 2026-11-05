@@ -1,0 +1,10 @@
+name: nucleo-l412rb-p
+plugs:
+  nucleo-l412rb-p-probe:  # debug probe: ST-LINK
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  nucleo-l412rb-p-console:  # console: ST-LINK virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

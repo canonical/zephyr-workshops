@@ -1,0 +1,10 @@
+name: mps2
+plugs:
+  mps2-usb:  # native USB bootloader (UF2/DFU/bossac)
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0d28"
+  mps2-serial:  # native USB CDC ACM console
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0d28"

@@ -1,0 +1,10 @@
+name: frdm-ke17z512
+plugs:
+  frdm-ke17z512-probe:  # debug probe: NXP MCU-Link / LPC-Link2
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1fc9"
+  frdm-ke17z512-console:  # console: NXP MCU-Link / LPC-Link2 virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1fc9"

@@ -1,0 +1,10 @@
+name: mcx-n9xx-evk
+plugs:
+  mcx-n9xx-evk-probe:  # debug probe: NXP MCU-Link / LPC-Link2
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1fc9"
+  mcx-n9xx-evk-console:  # console: NXP MCU-Link / LPC-Link2 virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1fc9"

@@ -1,0 +1,10 @@
+name: b-l072z-lrwan1
+plugs:
+  b-l072z-lrwan1-probe:  # debug probe: ST-LINK
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  b-l072z-lrwan1-console:  # console: ST-LINK virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

@@ -1,0 +1,10 @@
+name: same54-xpro
+plugs:
+  same54-xpro-probe:  # debug probe: Microchip EDBG / nEDBG
+    interface: custom-device
+    subsystem: usb
+    vendorid: "03eb"
+  same54-xpro-console:  # console: Microchip EDBG / nEDBG virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "03eb"

@@ -1,0 +1,10 @@
+name: framework-ledmatrix
+plugs:
+  framework-ledmatrix-probe:  # debug probe: Raspberry Pi Debug Probe
+    interface: custom-device
+    subsystem: usb
+    vendorid: "2e8a"
+  framework-ledmatrix-console:  # console: Raspberry Pi Debug Probe virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "2e8a"

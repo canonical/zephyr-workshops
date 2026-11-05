@@ -1,0 +1,10 @@
+name: croxel-cx1825
+plugs:
+  croxel-cx1825-probe:  # debug probe: SEGGER J-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1366"
+  croxel-cx1825-console:  # console: SEGGER J-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1366"

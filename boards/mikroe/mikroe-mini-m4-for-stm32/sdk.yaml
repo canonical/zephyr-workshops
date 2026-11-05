@@ -1,0 +1,10 @@
+name: mikroe-mini-m4-for-stm32
+plugs:
+  mikroe-mini-m4-for-stm32-probe:  # debug probe: ST-LINK
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  mikroe-mini-m4-for-stm32-console:  # console: ST-LINK virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

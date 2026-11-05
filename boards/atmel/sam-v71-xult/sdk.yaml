@@ -1,0 +1,10 @@
+name: sam-v71-xult
+plugs:
+  sam-v71-xult-probe:  # debug probe: Microchip EDBG / nEDBG
+    interface: custom-device
+    subsystem: usb
+    vendorid: "03eb"
+  sam-v71-xult-console:  # console: Microchip EDBG / nEDBG virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "03eb"

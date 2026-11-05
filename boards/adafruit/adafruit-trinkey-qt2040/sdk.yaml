@@ -1,0 +1,10 @@
+name: adafruit-trinkey-qt2040
+plugs:
+  adafruit-trinkey-qt2040-probe:  # debug probe: Raspberry Pi Debug Probe
+    interface: custom-device
+    subsystem: usb
+    vendorid: "2e8a"
+  adafruit-trinkey-qt2040-console:  # console: Raspberry Pi Debug Probe virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "2e8a"

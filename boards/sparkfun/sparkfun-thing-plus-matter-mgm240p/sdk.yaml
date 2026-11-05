@@ -1,0 +1,10 @@
+name: sparkfun-thing-plus-matter-mgm240p
+plugs:
+  sparkfun-thing-plus-matter-mgm240p-probe:  # debug probe: SEGGER J-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1366"
+  sparkfun-thing-plus-matter-mgm240p-console:  # console: SEGGER J-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1366"

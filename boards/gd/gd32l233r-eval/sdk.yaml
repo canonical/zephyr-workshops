@@ -1,0 +1,10 @@
+name: gd32l233r-eval
+plugs:
+  gd32l233r-eval-probe:  # debug probe: GigaDevice GD-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "28e9"
+  gd32l233r-eval-console:  # console: GigaDevice GD-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "28e9"

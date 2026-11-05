@@ -1,0 +1,10 @@
+name: rsk-rx130
+plugs:
+  rsk-rx130-probe:  # debug probe: SEGGER J-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1366"
+  rsk-rx130-console:  # console: SEGGER J-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1366"

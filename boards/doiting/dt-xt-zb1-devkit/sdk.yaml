@@ -1,0 +1,14 @@
+name: dt-xt-zb1-devkit
+plugs:
+  dt-xt-zb1-devkit-cp210x-serial:  # CP210X USB-UART bridge
+    interface: custom-device
+    subsystem: tty
+    vendorid: "10c4"
+  dt-xt-zb1-devkit-ch34x-serial:  # CH34X USB-UART bridge
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1a86"
+  dt-xt-zb1-devkit-ftdi-serial:  # FTDI USB-UART bridge
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0403"

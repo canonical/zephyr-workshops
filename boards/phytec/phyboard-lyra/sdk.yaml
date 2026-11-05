@@ -1,0 +1,10 @@
+name: phyboard-lyra
+plugs:
+  phyboard-lyra-probe:  # debug probe: TI XDS110
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0451"
+  phyboard-lyra-console:  # console: TI XDS110 virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0451"

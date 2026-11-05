@@ -1,0 +1,10 @@
+name: nucleo-f722ze
+plugs:
+  nucleo-f722ze-probe:  # debug probe: ST-LINK
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  nucleo-f722ze-console:  # console: ST-LINK virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

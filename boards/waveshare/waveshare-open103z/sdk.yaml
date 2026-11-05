@@ -1,0 +1,10 @@
+name: waveshare-open103z
+plugs:
+  waveshare-open103z-probe:  # debug probe: SEGGER J-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1366"
+  waveshare-open103z-console:  # console: SEGGER J-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1366"

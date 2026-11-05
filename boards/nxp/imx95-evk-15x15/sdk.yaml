@@ -1,0 +1,10 @@
+name: imx95-evk-15x15
+plugs:
+  imx95-evk-15x15-probe:  # debug probe: FTDI JTAG/UART bridge
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0403"
+  imx95-evk-15x15-console:  # console: FTDI JTAG/UART bridge virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0403"

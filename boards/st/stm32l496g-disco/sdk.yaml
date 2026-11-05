@@ -1,0 +1,10 @@
+name: stm32l496g-disco
+plugs:
+  stm32l496g-disco-probe:  # debug probe: ST-LINK
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  stm32l496g-disco-console:  # console: ST-LINK virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

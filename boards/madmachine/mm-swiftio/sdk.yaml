@@ -1,0 +1,10 @@
+name: mm-swiftio
+plugs:
+  mm-swiftio-probe:  # debug probe: NXP MCU-Link / LPC-Link2
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1fc9"
+  mm-swiftio-console:  # console: NXP MCU-Link / LPC-Link2 virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1fc9"

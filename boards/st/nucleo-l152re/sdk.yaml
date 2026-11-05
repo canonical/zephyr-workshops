@@ -1,0 +1,10 @@
+name: nucleo-l152re
+plugs:
+  nucleo-l152re-probe:  # debug probe: ST-LINK
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  nucleo-l152re-console:  # console: ST-LINK virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

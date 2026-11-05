@@ -1,0 +1,10 @@
+name: sparkfun-red-v-things-plus
+plugs:
+  sparkfun-red-v-things-plus-probe:  # debug probe: SEGGER J-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1366"
+  sparkfun-red-v-things-plus-console:  # console: SEGGER J-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1366"

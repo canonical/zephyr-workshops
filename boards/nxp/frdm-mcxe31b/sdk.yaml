@@ -1,0 +1,10 @@
+name: frdm-mcxe31b
+plugs:
+  frdm-mcxe31b-probe:  # debug probe: NXP MCU-Link / LPC-Link2
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1fc9"
+  frdm-mcxe31b-console:  # console: NXP MCU-Link / LPC-Link2 virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1fc9"

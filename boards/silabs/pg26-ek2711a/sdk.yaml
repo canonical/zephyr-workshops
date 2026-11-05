@@ -1,0 +1,10 @@
+name: pg26-ek2711a
+plugs:
+  pg26-ek2711a-probe:  # debug probe: SEGGER J-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1366"
+  pg26-ek2711a-console:  # console: SEGGER J-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1366"

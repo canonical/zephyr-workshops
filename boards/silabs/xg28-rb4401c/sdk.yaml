@@ -1,0 +1,10 @@
+name: xg28-rb4401c
+plugs:
+  xg28-rb4401c-probe:  # debug probe: SEGGER J-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1366"
+  xg28-rb4401c-console:  # console: SEGGER J-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1366"

@@ -1,0 +1,10 @@
+name: nucleo-n657x0-q
+plugs:
+  nucleo-n657x0-q-probe:  # debug probe: ST-LINK
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  nucleo-n657x0-q-console:  # console: ST-LINK virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

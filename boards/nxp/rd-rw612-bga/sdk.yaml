@@ -1,0 +1,10 @@
+name: rd-rw612-bga
+plugs:
+  rd-rw612-bga-probe:  # debug probe: SEGGER J-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1366"
+  rd-rw612-bga-console:  # console: SEGGER J-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1366"

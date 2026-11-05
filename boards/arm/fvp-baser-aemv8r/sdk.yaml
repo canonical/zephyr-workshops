@@ -1,0 +1,10 @@
+name: fvp-baser-aemv8r
+plugs:
+  fvp-baser-aemv8r-usb:  # native USB bootloader (UF2/DFU/bossac)
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0d28"
+  fvp-baser-aemv8r-serial:  # native USB CDC ACM console
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0d28"

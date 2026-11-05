@@ -1,0 +1,10 @@
+name: cc1352p7-lp
+plugs:
+  cc1352p7-lp-probe:  # debug probe: TI XDS110
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0451"
+  cc1352p7-lp-console:  # console: TI XDS110 virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0451"

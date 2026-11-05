@@ -1,0 +1,10 @@
+name: b-u585i-iot02a
+plugs:
+  b-u585i-iot02a-probe:  # debug probe: ST-LINK
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  b-u585i-iot02a-console:  # console: ST-LINK virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

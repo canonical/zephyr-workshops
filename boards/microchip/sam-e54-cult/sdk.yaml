@@ -1,0 +1,10 @@
+name: sam-e54-cult
+plugs:
+  sam-e54-cult-probe:  # debug probe: Microchip EDBG / nEDBG
+    interface: custom-device
+    subsystem: usb
+    vendorid: "03eb"
+  sam-e54-cult-console:  # console: Microchip EDBG / nEDBG virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "03eb"

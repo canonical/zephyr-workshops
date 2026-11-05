@@ -1,0 +1,10 @@
+name: pic32cm-jh01-cnano
+plugs:
+  pic32cm-jh01-cnano-probe:  # debug probe: Microchip EDBG / nEDBG
+    interface: custom-device
+    subsystem: usb
+    vendorid: "03eb"
+  pic32cm-jh01-cnano-console:  # console: Microchip EDBG / nEDBG virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "03eb"

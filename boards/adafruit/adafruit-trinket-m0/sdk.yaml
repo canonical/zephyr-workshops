@@ -1,0 +1,10 @@
+name: adafruit-trinket-m0
+plugs:
+  adafruit-trinket-m0-usb:  # native USB bootloader (UF2/DFU/bossac)
+    interface: custom-device
+    subsystem: usb
+    vendorid: "239a"
+  adafruit-trinket-m0-serial:  # native USB CDC ACM console
+    interface: custom-device
+    subsystem: tty
+    vendorid: "239a"

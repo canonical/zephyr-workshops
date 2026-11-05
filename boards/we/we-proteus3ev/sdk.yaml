@@ -1,0 +1,10 @@
+name: we-proteus3ev
+plugs:
+  we-proteus3ev-probe:  # debug probe: SEGGER J-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1366"
+  we-proteus3ev-console:  # console: SEGGER J-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1366"

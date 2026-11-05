@@ -1,0 +1,10 @@
+name: nrf52832-mdk
+plugs:
+  nrf52832-mdk-probe:  # debug probe: Arm DAPLink / CMSIS-DAP
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0d28"
+  nrf52832-mdk-console:  # console: Arm DAPLink / CMSIS-DAP virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0d28"

@@ -1,0 +1,10 @@
+name: ch32v307v-evt-r1
+plugs:
+  ch32v307v-evt-r1-probe:  # debug probe: WCH-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1a86"
+  ch32v307v-evt-r1-console:  # console: WCH-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1a86"

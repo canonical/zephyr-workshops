@@ -1,0 +1,10 @@
+name: bl654-sensor-board
+plugs:
+  bl654-sensor-board-probe:  # debug probe: FTDI JTAG/UART bridge
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0403"
+  bl654-sensor-board-console:  # console: FTDI JTAG/UART bridge virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0403"

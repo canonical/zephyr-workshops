@@ -1,0 +1,10 @@
+name: mks-canable-v20
+plugs:
+  mks-canable-v20-probe:  # debug probe: ST-LINK
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  mks-canable-v20-console:  # console: ST-LINK virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

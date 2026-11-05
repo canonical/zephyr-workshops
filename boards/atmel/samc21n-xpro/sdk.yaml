@@ -1,0 +1,10 @@
+name: samc21n-xpro
+plugs:
+  samc21n-xpro-probe:  # debug probe: Microchip EDBG / nEDBG
+    interface: custom-device
+    subsystem: usb
+    vendorid: "03eb"
+  samc21n-xpro-console:  # console: Microchip EDBG / nEDBG virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "03eb"

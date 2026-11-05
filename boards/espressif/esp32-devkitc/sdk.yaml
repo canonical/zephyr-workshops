@@ -1,0 +1,22 @@
+name: esp32-devkitc
+plugs:
+  esp32-devkitc-usb-jtag:  # built-in USB-Serial/JTAG (where present)
+    interface: custom-device
+    subsystem: usb
+    vendorid: "303a"
+  esp32-devkitc-usb-console:  # built-in USB-Serial/JTAG console
+    interface: custom-device
+    subsystem: tty
+    vendorid: "303a"
+  esp32-devkitc-cp210x-serial:  # CP210X USB-UART bridge
+    interface: custom-device
+    subsystem: tty
+    vendorid: "10c4"
+  esp32-devkitc-ch34x-serial:  # CH34X USB-UART bridge
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1a86"
+  esp32-devkitc-ftdi-serial:  # FTDI USB-UART bridge
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0403"

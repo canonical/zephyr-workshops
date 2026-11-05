@@ -1,0 +1,10 @@
+name: imx8mp-var-som
+plugs:
+  imx8mp-var-som-probe:  # debug probe: SEGGER J-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1366"
+  imx8mp-var-som-console:  # console: SEGGER J-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1366"

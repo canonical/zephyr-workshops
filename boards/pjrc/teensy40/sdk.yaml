@@ -1,0 +1,10 @@
+name: teensy40
+plugs:
+  teensy40-usb:  # native USB bootloader (UF2/DFU/bossac)
+    interface: custom-device
+    subsystem: usb
+    vendorid: "16c0"
+  teensy40-serial:  # native USB CDC ACM console
+    interface: custom-device
+    subsystem: tty
+    vendorid: "16c0"

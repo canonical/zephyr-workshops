@@ -1,0 +1,10 @@
+name: pandora-stm32l475
+plugs:
+  pandora-stm32l475-probe:  # debug probe: ST-LINK
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  pandora-stm32l475-console:  # console: ST-LINK virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

@@ -1,0 +1,4 @@
+#!/bin/bash
+set -e
+source /var/lib/workshop/sdk/zephyr/venv/bin/activate
+pip install pyocd

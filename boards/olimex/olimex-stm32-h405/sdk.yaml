@@ -1,0 +1,10 @@
+name: olimex-stm32-h405
+plugs:
+  olimex-stm32-h405-probe:  # debug probe: ST-LINK
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  olimex-stm32-h405-console:  # console: ST-LINK virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

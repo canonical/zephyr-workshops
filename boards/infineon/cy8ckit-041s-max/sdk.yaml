@@ -1,0 +1,10 @@
+name: cy8ckit-041s-max
+plugs:
+  cy8ckit-041s-max-probe:  # debug probe: Infineon KitProg
+    interface: custom-device
+    subsystem: usb
+    vendorid: "04b4"
+  cy8ckit-041s-max-console:  # console: Infineon KitProg virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "04b4"

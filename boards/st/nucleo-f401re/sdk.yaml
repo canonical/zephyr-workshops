@@ -1,0 +1,10 @@
+name: nucleo-f401re
+plugs:
+  nucleo-f401re-probe:  # debug probe: ST-LINK
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  nucleo-f401re-console:  # console: ST-LINK virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

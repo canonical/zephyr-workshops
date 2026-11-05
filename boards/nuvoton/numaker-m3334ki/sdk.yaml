@@ -1,0 +1,10 @@
+name: numaker-m3334ki
+plugs:
+  numaker-m3334ki-probe:  # debug probe: Nuvoton Nu-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0416"
+  numaker-m3334ki-console:  # console: Nuvoton Nu-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0416"

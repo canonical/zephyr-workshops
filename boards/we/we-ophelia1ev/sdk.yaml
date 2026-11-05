@@ -1,0 +1,10 @@
+name: we-ophelia1ev
+plugs:
+  we-ophelia1ev-probe:  # debug probe: SEGGER J-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1366"
+  we-ophelia1ev-console:  # console: SEGGER J-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1366"

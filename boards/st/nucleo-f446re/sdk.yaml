@@ -1,0 +1,10 @@
+name: nucleo-f446re
+plugs:
+  nucleo-f446re-probe:  # debug probe: ST-LINK
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  nucleo-f446re-console:  # console: ST-LINK virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

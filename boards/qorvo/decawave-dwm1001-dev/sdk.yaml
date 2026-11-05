@@ -1,0 +1,10 @@
+name: decawave-dwm1001-dev
+plugs:
+  decawave-dwm1001-dev-probe:  # debug probe: SEGGER J-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1366"
+  decawave-dwm1001-dev-console:  # console: SEGGER J-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1366"

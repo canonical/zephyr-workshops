@@ -1,0 +1,10 @@
+name: 96b-stm32-sensor-mez
+plugs:
+  96b-stm32-sensor-mez-probe:  # debug probe: ST-LINK
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  96b-stm32-sensor-mez-console:  # console: ST-LINK virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

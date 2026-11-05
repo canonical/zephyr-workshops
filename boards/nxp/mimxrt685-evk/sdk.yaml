@@ -1,0 +1,10 @@
+name: mimxrt685-evk
+plugs:
+  mimxrt685-evk-probe:  # debug probe: SEGGER J-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1366"
+  mimxrt685-evk-console:  # console: SEGGER J-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1366"

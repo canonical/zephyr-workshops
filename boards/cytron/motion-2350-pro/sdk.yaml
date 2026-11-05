@@ -1,0 +1,10 @@
+name: motion-2350-pro
+plugs:
+  motion-2350-pro-probe:  # debug probe: Raspberry Pi Debug Probe
+    interface: custom-device
+    subsystem: usb
+    vendorid: "2e8a"
+  motion-2350-pro-console:  # console: Raspberry Pi Debug Probe virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "2e8a"

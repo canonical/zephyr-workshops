@@ -1,0 +1,10 @@
+name: arduino-giga-r1
+plugs:
+  arduino-giga-r1-usb:  # native USB bootloader (UF2/DFU/bossac)
+    interface: custom-device
+    subsystem: usb
+    vendorid: "2341"
+  arduino-giga-r1-serial:  # native USB CDC ACM console
+    interface: custom-device
+    subsystem: tty
+    vendorid: "2341"

@@ -1,0 +1,10 @@
+name: mimxrt595-evk
+plugs:
+  mimxrt595-evk-probe:  # debug probe: SEGGER J-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1366"
+  mimxrt595-evk-console:  # console: SEGGER J-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1366"

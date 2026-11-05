@@ -1,0 +1,10 @@
+name: mgm260p-ek2713a
+plugs:
+  mgm260p-ek2713a-probe:  # debug probe: SEGGER J-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1366"
+  mgm260p-ek2713a-console:  # console: SEGGER J-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1366"

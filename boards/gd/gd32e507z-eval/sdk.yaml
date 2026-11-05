@@ -1,0 +1,10 @@
+name: gd32e507z-eval
+plugs:
+  gd32e507z-eval-probe:  # debug probe: GigaDevice GD-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "28e9"
+  gd32e507z-eval-console:  # console: GigaDevice GD-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "28e9"

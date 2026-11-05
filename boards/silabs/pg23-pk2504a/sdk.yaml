@@ -1,0 +1,10 @@
+name: pg23-pk2504a
+plugs:
+  pg23-pk2504a-probe:  # debug probe: SEGGER J-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1366"
+  pg23-pk2504a-console:  # console: SEGGER J-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1366"

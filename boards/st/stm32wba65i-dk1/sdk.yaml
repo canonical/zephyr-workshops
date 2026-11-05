@@ -1,0 +1,10 @@
+name: stm32wba65i-dk1
+plugs:
+  stm32wba65i-dk1-probe:  # debug probe: ST-LINK
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  stm32wba65i-dk1-console:  # console: ST-LINK virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

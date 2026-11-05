@@ -1,0 +1,10 @@
+name: blackpill-f401cc
+plugs:
+  blackpill-f401cc-usb:  # native USB bootloader (UF2/DFU/bossac)
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  blackpill-f401cc-serial:  # native USB CDC ACM console
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

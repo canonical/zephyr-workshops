@@ -1,0 +1,10 @@
+name: imx93-var-dart
+plugs:
+  imx93-var-dart-probe:  # debug probe: SEGGER J-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1366"
+  imx93-var-dart-console:  # console: SEGGER J-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1366"

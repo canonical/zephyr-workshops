@@ -1,0 +1,10 @@
+name: nrf5340-audio-dk
+plugs:
+  nrf5340-audio-dk-probe:  # debug probe: SEGGER J-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1366"
+  nrf5340-audio-dk-console:  # console: SEGGER J-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1366"

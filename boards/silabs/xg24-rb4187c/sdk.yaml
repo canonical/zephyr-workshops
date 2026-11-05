@@ -1,0 +1,10 @@
+name: xg24-rb4187c
+plugs:
+  xg24-rb4187c-probe:  # debug probe: SEGGER J-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1366"
+  xg24-rb4187c-console:  # console: SEGGER J-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1366"

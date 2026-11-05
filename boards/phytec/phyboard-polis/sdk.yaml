@@ -1,0 +1,10 @@
+name: phyboard-polis
+plugs:
+  phyboard-polis-probe:  # debug probe: SEGGER J-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1366"
+  phyboard-polis-console:  # console: SEGGER J-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1366"

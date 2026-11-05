@@ -1,0 +1,10 @@
+name: msp-exp432p401r-launchxl
+plugs:
+  msp-exp432p401r-launchxl-probe:  # debug probe: TI XDS110
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0451"
+  msp-exp432p401r-launchxl-console:  # console: TI XDS110 virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0451"

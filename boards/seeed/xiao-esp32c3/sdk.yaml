@@ -1,0 +1,22 @@
+name: xiao-esp32c3
+plugs:
+  xiao-esp32c3-usb-jtag:  # built-in USB-Serial/JTAG (where present)
+    interface: custom-device
+    subsystem: usb
+    vendorid: "303a"
+  xiao-esp32c3-usb-console:  # built-in USB-Serial/JTAG console
+    interface: custom-device
+    subsystem: tty
+    vendorid: "303a"
+  xiao-esp32c3-cp210x-serial:  # CP210X USB-UART bridge
+    interface: custom-device
+    subsystem: tty
+    vendorid: "10c4"
+  xiao-esp32c3-ch34x-serial:  # CH34X USB-UART bridge
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1a86"
+  xiao-esp32c3-ftdi-serial:  # FTDI USB-UART bridge
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0403"

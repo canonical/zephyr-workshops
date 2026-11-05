@@ -1,0 +1,10 @@
+name: nucleo-f302r8
+plugs:
+  nucleo-f302r8-probe:  # debug probe: ST-LINK
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  nucleo-f302r8-console:  # console: ST-LINK virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

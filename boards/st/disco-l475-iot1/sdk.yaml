@@ -1,0 +1,10 @@
+name: disco-l475-iot1
+plugs:
+  disco-l475-iot1-probe:  # debug probe: ST-LINK
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  disco-l475-iot1-console:  # console: ST-LINK virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

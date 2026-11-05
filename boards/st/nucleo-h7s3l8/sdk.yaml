@@ -1,0 +1,10 @@
+name: nucleo-h7s3l8
+plugs:
+  nucleo-h7s3l8-probe:  # debug probe: ST-LINK
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  nucleo-h7s3l8-console:  # console: ST-LINK virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

@@ -1,0 +1,10 @@
+name: adafruit-feather-m0-lora
+plugs:
+  adafruit-feather-m0-lora-usb:  # native USB bootloader (UF2/DFU/bossac)
+    interface: custom-device
+    subsystem: usb
+    vendorid: "239a"
+  adafruit-feather-m0-lora-serial:  # native USB CDC ACM console
+    interface: custom-device
+    subsystem: tty
+    vendorid: "239a"

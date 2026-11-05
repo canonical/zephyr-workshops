@@ -1,0 +1,10 @@
+name: rcar-spider-s4
+plugs:
+  rcar-spider-s4-probe:  # debug probe: FTDI JTAG/UART bridge
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0403"
+  rcar-spider-s4-console:  # console: FTDI JTAG/UART bridge virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0403"

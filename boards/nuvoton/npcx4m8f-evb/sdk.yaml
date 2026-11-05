@@ -1,0 +1,10 @@
+name: npcx4m8f-evb
+plugs:
+  npcx4m8f-evb-probe:  # debug probe: FTDI JTAG/UART bridge
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0403"
+  npcx4m8f-evb-console:  # console: FTDI JTAG/UART bridge virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0403"

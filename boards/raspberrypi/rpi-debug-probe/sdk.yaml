@@ -1,0 +1,10 @@
+name: rpi-debug-probe
+plugs:
+  rpi-debug-probe-probe:  # debug probe: Raspberry Pi Debug Probe
+    interface: custom-device
+    subsystem: usb
+    vendorid: "2e8a"
+  rpi-debug-probe-console:  # console: Raspberry Pi Debug Probe virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "2e8a"

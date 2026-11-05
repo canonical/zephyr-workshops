@@ -1,0 +1,10 @@
+name: apex-pro-mini
+plugs:
+  apex-pro-mini-probe:  # debug probe: ST-LINK
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  apex-pro-mini-console:  # console: ST-LINK virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

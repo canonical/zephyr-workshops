@@ -1,0 +1,10 @@
+name: nrf54l15tag
+plugs:
+  nrf54l15tag-probe:  # debug probe: SEGGER J-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1366"
+  nrf54l15tag-console:  # console: SEGGER J-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1366"

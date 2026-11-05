@@ -1,0 +1,10 @@
+name: fk743m5-xih6
+plugs:
+  fk743m5-xih6-probe:  # debug probe: ST-LINK
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  fk743m5-xih6-console:  # console: ST-LINK virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

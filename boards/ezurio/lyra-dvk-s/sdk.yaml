@@ -1,0 +1,10 @@
+name: lyra-dvk-s
+plugs:
+  lyra-dvk-s-probe:  # debug probe: SEGGER J-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1366"
+  lyra-dvk-s-console:  # console: SEGGER J-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1366"

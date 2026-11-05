@@ -1,0 +1,10 @@
+name: kit-psc3m5-evk
+plugs:
+  kit-psc3m5-evk-probe:  # debug probe: Infineon KitProg
+    interface: custom-device
+    subsystem: usb
+    vendorid: "04b4"
+  kit-psc3m5-evk-console:  # console: Infineon KitProg virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "04b4"

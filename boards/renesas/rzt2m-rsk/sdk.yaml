@@ -1,0 +1,10 @@
+name: rzt2m-rsk
+plugs:
+  rzt2m-rsk-probe:  # debug probe: SEGGER J-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1366"
+  rzt2m-rsk-console:  # console: SEGGER J-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1366"

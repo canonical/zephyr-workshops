@@ -1,0 +1,18 @@
+name: quill-nrf52840-mesh
+plugs:
+  quill-nrf52840-mesh-probe:  # debug probe: SEGGER J-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1366"
+  quill-nrf52840-mesh-console:  # console: SEGGER J-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1366"
+  quill-nrf52840-mesh-usb:  # native USB bootloader (UF2/DFU/bossac)
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1915"
+  quill-nrf52840-mesh-serial:  # native USB CDC ACM console
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1915"

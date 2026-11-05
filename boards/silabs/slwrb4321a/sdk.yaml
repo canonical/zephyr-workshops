@@ -1,0 +1,10 @@
+name: slwrb4321a
+plugs:
+  slwrb4321a-probe:  # debug probe: SEGGER J-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1366"
+  slwrb4321a-console:  # console: SEGGER J-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1366"

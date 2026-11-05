@@ -1,0 +1,10 @@
+name: st25dv-mb1283-disco
+plugs:
+  st25dv-mb1283-disco-probe:  # debug probe: ST-LINK
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  st25dv-mb1283-disco-console:  # console: ST-LINK virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

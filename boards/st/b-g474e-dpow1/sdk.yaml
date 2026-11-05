@@ -1,0 +1,10 @@
+name: b-g474e-dpow1
+plugs:
+  b-g474e-dpow1-probe:  # debug probe: ST-LINK
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  b-g474e-dpow1-console:  # console: ST-LINK virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

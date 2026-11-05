@@ -1,0 +1,10 @@
+name: da1469x-dk-pro
+plugs:
+  da1469x-dk-pro-probe:  # debug probe: SEGGER J-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1366"
+  da1469x-dk-pro-console:  # console: SEGGER J-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1366"

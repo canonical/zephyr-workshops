@@ -1,0 +1,10 @@
+name: bl5340-dvk
+plugs:
+  bl5340-dvk-probe:  # debug probe: SEGGER J-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1366"
+  bl5340-dvk-console:  # console: SEGGER J-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1366"

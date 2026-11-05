@@ -1,0 +1,10 @@
+name: mimxrt1020-evk
+plugs:
+  mimxrt1020-evk-probe:  # debug probe: NXP MCU-Link / LPC-Link2
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1fc9"
+  mimxrt1020-evk-console:  # console: NXP MCU-Link / LPC-Link2 virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1fc9"

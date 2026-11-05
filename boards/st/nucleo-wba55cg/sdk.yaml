@@ -1,0 +1,10 @@
+name: nucleo-wba55cg
+plugs:
+  nucleo-wba55cg-probe:  # debug probe: ST-LINK
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  nucleo-wba55cg-console:  # console: ST-LINK virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

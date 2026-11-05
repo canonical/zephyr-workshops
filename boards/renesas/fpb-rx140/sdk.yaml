@@ -1,0 +1,10 @@
+name: fpb-rx140
+plugs:
+  fpb-rx140-probe:  # debug probe: SEGGER J-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1366"
+  fpb-rx140-console:  # console: SEGGER J-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1366"

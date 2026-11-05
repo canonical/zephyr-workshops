@@ -1,0 +1,10 @@
+name: adi-eval-adin2111d1z
+plugs:
+  adi-eval-adin2111d1z-probe:  # debug probe: FTDI JTAG/UART bridge
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0403"
+  adi-eval-adin2111d1z-console:  # console: FTDI JTAG/UART bridge virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0403"

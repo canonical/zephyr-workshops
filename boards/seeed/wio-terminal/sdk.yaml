@@ -1,0 +1,10 @@
+name: wio-terminal
+plugs:
+  wio-terminal-usb:  # native USB bootloader (UF2/DFU/bossac)
+    interface: custom-device
+    subsystem: usb
+    vendorid: "2886"
+  wio-terminal-serial:  # native USB CDC ACM console
+    interface: custom-device
+    subsystem: tty
+    vendorid: "2886"

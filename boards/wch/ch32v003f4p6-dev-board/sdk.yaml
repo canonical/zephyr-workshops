@@ -1,0 +1,10 @@
+name: ch32v003f4p6-dev-board
+plugs:
+  ch32v003f4p6-dev-board-probe:  # debug probe: WCH-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1a86"
+  ch32v003f4p6-dev-board-console:  # console: WCH-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1a86"

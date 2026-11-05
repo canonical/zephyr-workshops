@@ -1,0 +1,10 @@
+name: weact-stm32g431-core
+plugs:
+  weact-stm32g431-core-usb:  # native USB bootloader (UF2/DFU/bossac)
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  weact-stm32g431-core-serial:  # native USB CDC ACM console
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

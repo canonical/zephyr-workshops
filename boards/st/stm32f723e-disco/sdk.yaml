@@ -1,0 +1,10 @@
+name: stm32f723e-disco
+plugs:
+  stm32f723e-disco-probe:  # debug probe: ST-LINK
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  stm32f723e-disco-console:  # console: ST-LINK virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

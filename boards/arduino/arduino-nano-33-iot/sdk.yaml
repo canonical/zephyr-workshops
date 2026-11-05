@@ -1,0 +1,10 @@
+name: arduino-nano-33-iot
+plugs:
+  arduino-nano-33-iot-usb:  # native USB bootloader (UF2/DFU/bossac)
+    interface: custom-device
+    subsystem: usb
+    vendorid: "2341"
+  arduino-nano-33-iot-serial:  # native USB CDC ACM console
+    interface: custom-device
+    subsystem: tty
+    vendorid: "2341"

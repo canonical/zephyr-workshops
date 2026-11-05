@@ -1,0 +1,10 @@
+name: yd-stm32h750vb
+plugs:
+  yd-stm32h750vb-probe:  # debug probe: ST-LINK
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  yd-stm32h750vb-console:  # console: ST-LINK virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

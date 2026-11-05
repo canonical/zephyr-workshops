@@ -1,0 +1,10 @@
+name: 96b-neonkey
+plugs:
+  96b-neonkey-usb:  # native USB bootloader (UF2/DFU/bossac)
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  96b-neonkey-serial:  # native USB CDC ACM console
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

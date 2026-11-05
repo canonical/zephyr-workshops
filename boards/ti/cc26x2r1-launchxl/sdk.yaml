@@ -1,0 +1,10 @@
+name: cc26x2r1-launchxl
+plugs:
+  cc26x2r1-launchxl-probe:  # debug probe: TI XDS110
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0451"
+  cc26x2r1-launchxl-console:  # console: TI XDS110 virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0451"

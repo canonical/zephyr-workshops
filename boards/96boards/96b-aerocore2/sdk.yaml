@@ -1,0 +1,10 @@
+name: 96b-aerocore2
+plugs:
+  96b-aerocore2-usb:  # native USB bootloader (UF2/DFU/bossac)
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  96b-aerocore2-serial:  # native USB CDC ACM console
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

@@ -1,0 +1,10 @@
+name: stm32h7s78-dk
+plugs:
+  stm32h7s78-dk-probe:  # debug probe: ST-LINK
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  stm32h7s78-dk-console:  # console: ST-LINK virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

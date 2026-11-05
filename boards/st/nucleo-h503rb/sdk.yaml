@@ -1,0 +1,10 @@
+name: nucleo-h503rb
+plugs:
+  nucleo-h503rb-probe:  # debug probe: ST-LINK
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  nucleo-h503rb-console:  # console: ST-LINK virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

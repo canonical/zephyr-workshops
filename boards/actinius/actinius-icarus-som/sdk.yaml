@@ -1,0 +1,10 @@
+name: actinius-icarus-som
+plugs:
+  actinius-icarus-som-probe:  # debug probe: SEGGER J-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1366"
+  actinius-icarus-som-console:  # console: SEGGER J-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1366"

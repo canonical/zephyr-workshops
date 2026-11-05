@@ -1,0 +1,10 @@
+name: xg27-dk2602a
+plugs:
+  xg27-dk2602a-probe:  # debug probe: SEGGER J-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1366"
+  xg27-dk2602a-console:  # console: SEGGER J-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1366"

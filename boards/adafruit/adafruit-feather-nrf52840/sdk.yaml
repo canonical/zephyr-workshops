@@ -1,0 +1,10 @@
+name: adafruit-feather-nrf52840
+plugs:
+  adafruit-feather-nrf52840-usb:  # native USB bootloader (UF2/DFU/bossac)
+    interface: custom-device
+    subsystem: usb
+    vendorid: "239a"
+  adafruit-feather-nrf52840-serial:  # native USB CDC ACM console
+    interface: custom-device
+    subsystem: tty
+    vendorid: "239a"

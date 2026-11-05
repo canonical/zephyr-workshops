@@ -1,0 +1,10 @@
+name: nucleo-l433rc-p
+plugs:
+  nucleo-l433rc-p-probe:  # debug probe: ST-LINK
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  nucleo-l433rc-p-console:  # console: ST-LINK virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

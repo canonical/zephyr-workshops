@@ -1,0 +1,10 @@
+name: pinnacle-100-dvk
+plugs:
+  pinnacle-100-dvk-probe:  # debug probe: FTDI JTAG/UART bridge
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0403"
+  pinnacle-100-dvk-console:  # console: FTDI JTAG/UART bridge virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0403"

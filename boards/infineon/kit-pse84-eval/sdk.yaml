@@ -1,0 +1,10 @@
+name: kit-pse84-eval
+plugs:
+  kit-pse84-eval-probe:  # debug probe: Infineon KitProg
+    interface: custom-device
+    subsystem: usb
+    vendorid: "04b4"
+  kit-pse84-eval-console:  # console: Infineon KitProg virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "04b4"

@@ -1,0 +1,10 @@
+name: apollo3-evb
+plugs:
+  apollo3-evb-probe:  # debug probe: SEGGER J-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1366"
+  apollo3-evb-console:  # console: SEGGER J-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1366"

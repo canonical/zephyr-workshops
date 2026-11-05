@@ -1,0 +1,10 @@
+name: voice-ra4e1
+plugs:
+  voice-ra4e1-probe:  # debug probe: SEGGER J-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1366"
+  voice-ra4e1-console:  # console: SEGGER J-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1366"

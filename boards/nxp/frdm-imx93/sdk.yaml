@@ -1,0 +1,10 @@
+name: frdm-imx93
+plugs:
+  frdm-imx93-probe:  # debug probe: SEGGER J-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1366"
+  frdm-imx93-console:  # console: SEGGER J-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1366"

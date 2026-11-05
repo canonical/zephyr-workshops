@@ -1,0 +1,10 @@
+name: adafruit-feather-stm32f405
+plugs:
+  adafruit-feather-stm32f405-usb:  # native USB bootloader (UF2/DFU/bossac)
+    interface: custom-device
+    subsystem: usb
+    vendorid: "239a"
+  adafruit-feather-stm32f405-serial:  # native USB CDC ACM console
+    interface: custom-device
+    subsystem: tty
+    vendorid: "239a"

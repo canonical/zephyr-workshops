@@ -1,0 +1,10 @@
+name: sam-e70-xplained
+plugs:
+  sam-e70-xplained-probe:  # debug probe: Microchip EDBG / nEDBG
+    interface: custom-device
+    subsystem: usb
+    vendorid: "03eb"
+  sam-e70-xplained-console:  # console: Microchip EDBG / nEDBG virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "03eb"

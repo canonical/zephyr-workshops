@@ -1,0 +1,10 @@
+name: sam4s-xplained
+plugs:
+  sam4s-xplained-probe:  # debug probe: SEGGER J-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1366"
+  sam4s-xplained-console:  # console: SEGGER J-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1366"

@@ -1,0 +1,10 @@
+name: arduino-nicla-vision
+plugs:
+  arduino-nicla-vision-usb:  # native USB bootloader (UF2/DFU/bossac)
+    interface: custom-device
+    subsystem: usb
+    vendorid: "2341"
+  arduino-nicla-vision-serial:  # native USB CDC ACM console
+    interface: custom-device
+    subsystem: tty
+    vendorid: "2341"

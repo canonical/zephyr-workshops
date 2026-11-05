@@ -1,0 +1,10 @@
+name: nucleo-l496zg
+plugs:
+  nucleo-l496zg-probe:  # debug probe: ST-LINK
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  nucleo-l496zg-console:  # console: ST-LINK virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

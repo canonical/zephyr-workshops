@@ -1,0 +1,10 @@
+name: 96b-wistrio
+plugs:
+  96b-wistrio-usb:  # native USB bootloader (UF2/DFU/bossac)
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  96b-wistrio-serial:  # native USB CDC ACM console
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"

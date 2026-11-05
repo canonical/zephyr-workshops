@@ -1,0 +1,10 @@
+name: ubx-evkannab1
+plugs:
+  ubx-evkannab1-probe:  # debug probe: SEGGER J-Link
+    interface: custom-device
+    subsystem: usb
+    vendorid: "1366"
+  ubx-evkannab1-console:  # console: SEGGER J-Link virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "1366"

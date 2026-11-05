@@ -1,0 +1,10 @@
+name: cc3220sf-launchxl
+plugs:
+  cc3220sf-launchxl-probe:  # debug probe: TI XDS110
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0451"
+  cc3220sf-launchxl-console:  # console: TI XDS110 virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0451"

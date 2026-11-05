@@ -1,0 +1,10 @@
+name: 96b-argonkey
+plugs:
+  96b-argonkey-probe:  # debug probe: ST-LINK
+    interface: custom-device
+    subsystem: usb
+    vendorid: "0483"
+  96b-argonkey-console:  # console: ST-LINK virtual COM port
+    interface: custom-device
+    subsystem: tty
+    vendorid: "0483"
